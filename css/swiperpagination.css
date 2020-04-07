@@ -1,0 +1,26 @@
+.swiper-pagination {
+  position: absolute;
+  bottom: 39.95816% !important;
+  right: 0;
+  z-index: 5;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  display: inline-block;
+  background-color: #fff;
+  width: 1.0667vw;
+  height: 1.0667vw;
+  margin: 0 1.6vw 0 0;
+  vertical-align: top;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ff3c25;
+  width: 3.7333vw;
+  border-radius: 1.0667vw;
+}
+
+/*# sourceMappingURL=swiperpagination.css.map */

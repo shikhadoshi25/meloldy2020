@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*轮播内容开始*/
+.touchweb_page-index {
+  width: 375px!important;
+  margin: 10px auto;
+  height: 146px!important;
+}
+.swiper-slide { 
+  width: 375px!important;
+}
+.touchweb_page-index .touchweb_components-headerMenu {
+  position: relative;
+  overflow: hidden;
+}
+
+.touchweb_page-index .headerMenu-ul {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  position: absolute;
+}
+
+.swiper-wrapper .swiper-slide img {
+  position: absolute;
+  left: 0;
+  z-index: 5;
+  width: 290px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 16px;
+}
+
+.swiper-container::after {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 65.066666667%;
+}
+.swiper-pagination{
+  bottom: 33.95816% !important;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    display: inline-block;
+    background-color: #fff;
+    width: 7px;
+    height: 7px;
+    vertical-align: top;
+}
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #ff3c25;
+    width: 7px;
+    border-radius: 1.0667vw;
+}
+.banners{
+  width: 290px;
+  height: 138px;
+}
+/*轮播内容结束*/
+
+
